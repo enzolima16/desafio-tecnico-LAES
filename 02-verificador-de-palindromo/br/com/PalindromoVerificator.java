@@ -1,6 +1,6 @@
 package br.com;
 
-public class VerificadorPalindromo {
+public class PalindromoVerificator {
     public static boolean palindromoCheck(String f) {
         StringBuilder sb = new StringBuilder();
         for (char c : f.toCharArray()) {
@@ -20,6 +20,6 @@ public class VerificadorPalindromo {
 
     public static void main(String[] args) {
         String f = " ";
-        System.out.println(VerificadorPalindromo.palindromoCheck(f));
+        System.out.println(PalindromoVerificator.palindromoCheck(f));
     }
 }

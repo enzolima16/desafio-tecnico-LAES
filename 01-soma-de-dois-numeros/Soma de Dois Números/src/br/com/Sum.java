@@ -2,7 +2,7 @@ package br.com;
 
 import java.util.Arrays;
 
-public class Soma {
+public class Sum {
     public static int[] soma(int[] nums, int target) {
         int[] valores;
         for (int i = 0; i < nums.length; i++) {
